@@ -21,6 +21,6 @@ a{
     text-decoration: none;
     background-color: orangered;
 }
-a:hover, a:focus{
+a:hover{
     background-color: firebrick;
 }
