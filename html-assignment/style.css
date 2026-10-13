@@ -17,3 +17,10 @@ header, footer{
 .square-list li:nth-child(odd){
     background-color: orange;
 }
+a{
+    text-decoration: none;
+    background-color: orangered;
+}
+a:hover, a:focus{
+    background-color: firebrick;
+}
