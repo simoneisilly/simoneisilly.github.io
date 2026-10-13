@@ -2,3 +2,9 @@ body{
     font-family: Comic Sans MS, Comic Sans, cursive;
     font-size: 18px;
 }
+header, footer{
+    background-color: yellowgreen;
+}
+.site-title{
+    color: green;
+}
