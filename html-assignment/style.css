@@ -8,3 +8,9 @@ header, footer{
 .site-title{
     color: green;
 }
+#my-image{
+    box-shadow: 0 0 2px 1px black;
+}
+.square-list{
+    list-style-type: square;
+}
