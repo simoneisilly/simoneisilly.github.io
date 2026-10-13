@@ -14,3 +14,6 @@ header, footer{
 .square-list{
     list-style-type: square;
 }
+.square-list li:nth-child(odd){
+    background-color: orange;
+}
