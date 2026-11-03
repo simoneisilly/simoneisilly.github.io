@@ -111,6 +111,7 @@ form input[type="email"] {
     box-sizing: border-box;
 }
 
+/*all forms with a text box have a black border with this width, box size and padding*/
 form textarea {
     width: 100%;
     height: 65px;
@@ -138,4 +139,10 @@ form button {
     margin-top: 10px;
     padding: 5px 10px;
     font-size: 10px;
+}
+
+/*shimmies the copyright to the right side of the page*/
+footer {
+    text-align: right;
+    padding: 5px 10px;
 }
