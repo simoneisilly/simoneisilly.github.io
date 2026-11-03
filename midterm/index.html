@@ -11,6 +11,11 @@
         <header>
             <h1>Hungry Caterpillar</h1>
         </header>
+        <nav>
+            <a href="#home">home</a>
+            <a href="#story">story</a>
+            <a href="#contact">contact</a>
+        </nav>
         <section id="home">
             <h2>The Very Hungry Caterpillar</h2>
             <img src="images/hungrycaterpillar.jpg" alt="a very hungry caterpillar on a leaf" class="image" height="300px">
@@ -35,6 +40,21 @@
             <form>
                 <label for="name">your name here:</label>
                 <input type="text" id="name" name="name">
+                <label for="email">your email here:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">your message here:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <h3>would you like to visit the hungry caterpillar?</h3>
+                <label for="yes">yes!!!</label>
+                <input type="radio" id="yes" name="visit" value="yes">
+                <label for="no">nah</label>
+                <input type="radio" id="no" name="visit" value="no">
+                <label for="maybe">maaaybe</label>
+                <input type="radio" id="maybe" name="visit" value="maybe">
+                <br>
+
+                <button type="submit">submit!!!</button>
             </form>
         </section>
     </div>
