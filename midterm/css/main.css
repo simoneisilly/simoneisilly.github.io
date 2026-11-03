@@ -89,4 +89,53 @@ article ul {
     list-style-type: square;
 }
 
+/*changing the style of the contact us! section with the name and the email and the message and such, gives everything a neat border too*/
+form {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 12px;
+}
 
+form label {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+/*selects just the name and email boxes*/
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+form textarea {
+    width: 100%;
+    height: 65px;
+    padding: 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    resize: none;
+}
+
+/*theres only one section so i dont need classes for it lul*/
+form section {
+    margin-top: 10px;
+}
+
+form section h3 {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+form section input[type="radio"] {
+    margin-left: 0;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 10px;
+}
