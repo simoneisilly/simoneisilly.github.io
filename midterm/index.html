@@ -7,16 +7,23 @@
     <!--<link href="css/main.css" rel="stylesheet">-->
 </head>
 <body>
+    <!--wrapper makes it so that the content is centered and has a maximum width-->
     <div class="wrapper">
+
+        <!--the banner image and text for the page-->
         <header>
             <img src="images/caterpillarbanner.jpg" alt="a caterpillar and the sun">
             <h1>Hungry Caterpillar</h1>
         </header>
+        
+        <!--navigation panel that takes you to different parts of the page-->
         <nav>
             <a href="#home">home</a>
             <a href="#story">story</a>
             <a href="#contact">contact</a>
         </nav>
+
+        <!--the home segment with the hungry caterpillar story by eric carle-->
         <article id="home">
             <h2>The Very Hungry Caterpillar</h2>
             <img src="images/hungrycaterpillar.jpg" alt="a caterpillar on a leaf" class="image">
@@ -26,6 +33,7 @@
             <p>That night he had a stomachache! The next day was Sunday again. The caterpillar ate through one nice leaf, and after that he felt better. Now he wasn't hungry anymore --- and he wasn't a little caterpillar anymore. He was a big fat caterpillar. He built a small house, called a cocoon, around himself. He stayed inside for more than two weeks Then he nibbled a hole in the cocoon, pushed his way out and… He became a beautiful butterfly!</p>
         </article>
 
+        <!--the story segment with facts about the very hungry caterpillar-->
         <article id="story">
             <h2>facts about the very hungry caterpillar</h2>
             <ul>
@@ -36,6 +44,7 @@
             </ul>
         </article>
 
+        <!--contact forms and interactable text elements-->
         <article id="contact">
             <h2>contact to learn more!!!</h2>
 
@@ -50,18 +59,24 @@
                 <textarea id="message" name="message"></textarea>
                 <br>
 
-                <h3>would you like to feed the hungry caterpillar?</h3>
-                 <input type="radio" id="yes" name="feed" value="yes">
+                <!--radio buttons instead of textboxes-->
+                <section>
+                    <h3>would you like to feed the hungry caterpillar?</h3>
+                    <input type="radio" id="yes" name="feed" value="yes">
                     <label for="yes">yes</label>
                     <input type="radio" id="no" name="feed" value="no">
                     <label for="no">no</label>
                     <input type="radio" id="maybe" name="feed" value="maybe">
                     <label for="maybe">maybe</label>
-                <br>
+                    <br>
 
-                <button type="submit">submit!!!</button>
+                    <!--the submit button that technically doesnt do anything for the person using the website-->
+                    <button type="submit">submit!!!</button>
+                </section>
             </form>
         </article>
+
+        <!--copyright footer of course-->
         <footer>
             <p>© 2026 Hungry Caterpillar.</p>
         </footer>
