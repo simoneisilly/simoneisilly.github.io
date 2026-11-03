@@ -45,3 +45,66 @@ nav a:last-child{
     border-right: none;
 
 }
+
+main{
+    padding-left: 6px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+.image{
+    width: 205px;
+    height: 210px;
+    object-fit: cover;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    padding-left: 1rem;
+}
+
+p{
+    font-size: 14px;
+    line-height: 18px;
+}
+
+ul{
+    list-style-type: square;
+    padding-left: 2rem;
+}
+
+#contact{
+    margin-top: 20px;
+}
+
+#contact h3 {
+    font-size: 19px;
+    font-weight: normal;
+}
+
+form {
+    border: 1px solid black;
+    padding: 13px;
+}
+
+form > label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+textarea {
+    height: 82px;
+    resize: vertical;
+}
+
+button {
+    background-color: red;
+    border: 1px solid black;
+    padding: 9px;
+    cursor: pointer;
+    font-size: 10px;
+}
