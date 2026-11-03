@@ -16,4 +16,11 @@ header{
     background-image: url("../images/caterpillarbanner.jpg");
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+    color: rgb(88, 51, 21);
 }
