@@ -7,6 +7,12 @@ body{
 
 .wrapper{
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
+    max-width: 800px;
     background-color: greenyellow;
+}
+
+header{
+    position: relative;
+    text-align: center;
 }
